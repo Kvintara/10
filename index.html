@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>input</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+          crossorigin="anonymous" 
+          referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form action="https://formspree.io/f/xdobjrep"
+          method="post">
+        <h1>Create an Accaunt</h1>
+
+        <label for="email">Email:</label>
+          <input autofocus required name="email" type="text" />
+
+        <label for="Password">Password:</label>
+          <input required name="Password" type="password" min="8" max="22" />
+
+        <label for="age">Age:</label>
+          <input type="number" id="quantity" name="quantity" min="15" max="100" placeholder="SelectAge" minlength="8" maxlength="22" required/>
+
+        <label for="description">Tell us a little about yuorself:</label>
+          <textarea name="description" maxlength="200"></textarea>
+   
+        <input name="agree" type="checkbox" required />
+        <label for="agree">
+            I Agree to the
+          <a target="_blank">terms of service</a>
+        </label>
+
+        <button type="submit">Sign up</button>  
+    </form>
+</body>
+</html>
