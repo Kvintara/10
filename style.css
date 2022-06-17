@@ -1,0 +1,16 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    max-width: 150px;
+}
+button {
+    max-width: 70px;
+}
+textarea {
+    max-width: 250px;
+}
+label {
+    padding-top: 15px;
+}
